@@ -12,7 +12,7 @@ public class Main {
         MenuUI menuUI = new MenuUI();
         ConsoleController consoleController = new ConsoleController();
 
-        consoleController.iniciar();
+        consoleController.begin();
         consoleController.start(scanner, menuUI);
 
 

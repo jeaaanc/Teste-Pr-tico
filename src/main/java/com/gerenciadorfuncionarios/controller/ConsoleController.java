@@ -19,7 +19,7 @@ public class ConsoleController {
     private final EmployeeService employeeService = new EmployeeService();
     private final EmployeeView employeeView = new EmployeeView();
 
-    public void iniciar(){
+    public void begin(){
         InputStream inputStream = Main.class.getResourceAsStream("/employee.json");
         if (inputStream == null) {
             System.out.println("Arquivo employee.json não encontrado!");
@@ -50,8 +50,8 @@ public class ConsoleController {
                 case 2:
                     System.out.println("\nInativar Funcionário");
 
-                    String nome = InputsUtil.readString(sc, "Digite o nome para remover:");
-                    if (employeeService.removeEmployee(nome)){
+                    String name = InputsUtil.readString(sc, "Digite o nome para remover:");
+                    if (employeeService.removeEmployee(name)){
                         System.out.println("Funcionario Inativado com sucesso!");
                     }else {
                         System.out.println("Funcionário não encontrado.");

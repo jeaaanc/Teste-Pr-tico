@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class InputsUtil {
 
-    public static int readInt(Scanner sc, String mensagem){
+    public static int readInt(Scanner sc, String message){
         while (true){
             try {
-                System.out.println(mensagem);
+                System.out.println(message);
                 return Integer.parseInt(sc.nextLine());
             }catch (NumberFormatException e){
                 System.out.println("Entrada inválida. Digite um número Inteiro. " + e);
@@ -15,8 +15,8 @@ public class InputsUtil {
         }
     }
 
-    public static String readString(Scanner sc, String mensagem){
-        System.out.println(mensagem);
+    public static String readString(Scanner sc, String message){
+        System.out.println(message);
         return sc.nextLine();
     }
 }
