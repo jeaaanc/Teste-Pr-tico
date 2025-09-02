@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Maria",
+    "dateBirth": "2000-10-18",
+    "salary": "2009.44",
+    "function": "Operador"
+  },
+  {
+    "name": "João",
+    "dateBirth": "1990-05-12",
+    "salary": "2284.38",
+    "function": "Operador"
+  },
+  {
+    "name": "Caio",
+    "dateBirth": "1961-05-02",
+    "salary": "9836.14",
+    "function": "Coordenador"
+  },
+  {
+    "name": "Miguel",
+    "dateBirth": "1988-10-14",
+    "salary": "19119.88",
+    "function": "Diretor"
+  },
+  {
+    "name": "Alice",
+    "dateBirth": "1995-01-05",
+    "salary": "2234.68",
+    "function": "Recepcionista"
+  },
+  {
+    "name": "Heitor",
+    "dateBirth": "1999-11-19",
+    "salary": "1582.72",
+    "function": "Operador"
+  },
+  {
+    "name": "Arthur",
+    "dateBirth": "1993-03-31",
+    "salary": "4071.84",
+    "function": "Contador"
+  },
+  {
+    "name": "Laura",
+    "dateBirth": "1994-07-08",
+    "salary": "3017.45",
+    "function": "Gerente"
+  },
+  {
+    "name": "Heloísa",
+    "dateBirth": "2003-05-24",
+    "salary": "1606.85",
+    "function": "Eletricista"
+  },
+  {
+    "name": "Helena",
+    "dateBirth": "1996-09-02",
+    "salary": "2799.93",
+    "function": "Gerente"
+  }
+]
